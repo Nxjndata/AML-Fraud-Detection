@@ -3,6 +3,7 @@ numpy
 seaborn
 matplotlib
 statsmodels
+pyarrow>=17.0.0; sys_platform != 'linux' or python_version < '3.13'
 scipy
 category_encoders
 ipykernel
